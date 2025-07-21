@@ -10,7 +10,6 @@
 * [Features](#features)
 * [Tech Stack](#tech-stack)
 * [Getting Started](#getting-started)
-
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Running the App](#running-the-app)
@@ -26,12 +25,15 @@ Check out the live version: [https://donezo-sage.vercel.app](https://donezo-sage
 
 ## Features
 
-* **Add Tasks**: Quickly add new to-do items with titles and optional descriptions.
-* **Mark Complete**: Toggle tasks as done or undone to track your progress.
-* **Edit & Delete**: Modify task details or remove tasks you no longer need.
-* **Filter & Search**: View all, active, or completed tasks and search by keyword.
-* **Persistent Storage**: Tasks are saved in your browser’s local storage for offline access.
-* **Responsive UI**: Mobile-first design ensures a seamless experience on any device.
+- **Add Tasks**: Quickly add tasks by typing into the input field and pressing Enter or clicking "Add Task".
+- **Toggle Completion**: Click the checkbox next to a task to mark it complete or active.
+- **Edit Tasks**: Use the pencil icon to edit a task’s title directly.
+- **Delete Tasks**: Remove tasks with the trash icon.
+- **Filter Tasks**: Switch between All, Active, and Completed views using the filter buttons.
+- **Clear Completed**: Click "Clear Completed" to remove all completed tasks at once.
+- **Search Tasks**: Filter tasks in real time by typing keywords in the search bar.
+- **Task Counter**: See the number of tasks remaining at the bottom.
+- **Persistent Storage**: All tasks are saved in LocalStorage for offline access.
 
 ## Tech Stack
 
@@ -50,23 +52,23 @@ Check out the live version: [https://donezo-sage.vercel.app](https://donezo-sage
 
 ### Installation
 
-```bash
+```
 # Clone the repository
 git clone https://github.com/sahibsiddiqui/Donezo.git
 cd Donezo
 
 # Install dependencies
 npm install
-# or
+or
 yarn install
 ```
 
 ### Running the App
 
-```bash
+```
 # Start the development server
 npm run dev
-# or
+or
 yarn dev
 
 # Open http://localhost:5174 in your browser
@@ -102,8 +104,7 @@ Donezo/
 
 - Below are some screenshots illustrating Donezo in action.
   - Dashboard: ![Dashboard](screenshots/dashboard.png)
-  - Adding a ToDo: 
-![Adding a ToDo](screenshots/addingatodo.png)
+  - Adding a ToDo: ![Adding a ToDo](screenshots/addingatodo.png)
   - Your ToDos: ![Your ToDos](screenshots/yourtodos.png)
   - Edit a ToDo: ![Edit a Todo](screenshots/edittodo.png)
   - Finally it should look like this!: ![Finally it should look like this!](screenshots/finallysomewhat.png)
@@ -121,4 +122,4 @@ Donezo/
 
 ## Project Link
 
-- [https://github.com/sahibsiddiqui/Donezo](https://github.com/sahibsiddiqui/Donezo)
+- [https://donezo-sage.vercel.app/](https://donezo-sage.vercel.app/)
