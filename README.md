@@ -102,6 +102,7 @@ Donezo/
 
 - Below are some screenshots illustrating Donezo in action.
   - Dashboard: ![Dashboard](screenshots/dashboard.png)
+
   - Adding a ToDo: ![Adding a ToDo](screenshots/addingatodo.png)
   - Your ToDos: ![Your ToDos](screenshots/yourtodos.png)
   - Edit a Todo: ![Edit a Todo](screenshots/edittodo.png)
